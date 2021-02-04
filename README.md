@@ -28,4 +28,4 @@
 4. System then checks if the string you provided is on the any of the pages.
 5. If string is on a page it will scan out that page and extract all faces using xml file provided in readonly directory as well as numpy and opencv libraries.
 6. Finally a contact sheet is created for those faces which is displayed on terminal.
-7. If there are no faces on the page System will show a string 'But there were no faces in that file!'.
+7. If there are no faces on a page but input string is, then system will show a message string on termial, i.e. 'But there were no faces in that file!'.
