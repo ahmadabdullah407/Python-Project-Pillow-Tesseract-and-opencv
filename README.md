@@ -25,7 +25,7 @@
 1. After execution of code system asks you to input 1 string you need to search for in datafiles(small_img.zip and images.zip in this case).
 2. System extracts the png image files from zip files using zipfile module.
 3. System then scans for words in the newspaper pages(png image files) provided inside zip files using pytesserect module.
-4. System then checks if the string you provided is on the pages.
-5. If string is on the page it will scan out all the pages and extract all faces using xml file provided in readonly directory as well as numpy and opencv libraries.
-6. Finally a contact shhet is created for those faces which is displayed on terminal.
-7. If there are no faces on the pages System will show a string 'But there were no faces in that file!'.
+4. System then checks if the string you provided is on the any of the pages.
+5. If string is on a page it will scan out that page and extract all faces using xml file provided in readonly directory as well as numpy and opencv libraries.
+6. Finally a contact sheet is created for those faces which is displayed on terminal.
+7. If there are no faces on the page System will show a string 'But there were no faces in that file!'.
