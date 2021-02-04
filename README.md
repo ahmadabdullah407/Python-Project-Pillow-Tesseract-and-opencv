@@ -22,7 +22,7 @@
   - NumPy library.
 - small-img.zip and images.zip files are not provided inside [readonly](https://github.com/ahmadabdullah407/Python-Project-Pillow-Tesseract-and-opencv/tree/main/readonly) directory due to their bigger size, so you need to provide them yourself.
 ### Working:
-1. After execution of code system ask you to input 1 string you need to search for in datafiles(small_img.zip and images.zip in this case).
+1. After execution of code system asks you to input 1 string you need to search for in datafiles(small_img.zip and images.zip in this case).
 2. System extracts the png image files from zip files using zipfile module.
 3. System then scans for words in the newspaper pages(png image files) provided inside zip files using pytesserect module.
 4. System then checks if the string you provided is on the pages.
